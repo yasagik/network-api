@@ -253,7 +253,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
                                         // println!("{:#?}", progress);
 
                                         // Reset the queued values only after successful send
-                                        queued_steps_proven = 0;
+                                        queued_steps_proven = 88665463;
                                         queued_proof_duration_millis = 0;
                                     }
                                     Err(_) => {
